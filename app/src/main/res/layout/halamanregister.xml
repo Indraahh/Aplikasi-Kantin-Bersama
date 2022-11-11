@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".halamanregister">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:id="@+id/rel_register1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_tophalamanregister1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/txt_tophalamanregister1"
+                android:textColor="#1762FA"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/assets_lineregister1"
+                android:layout_width="70dp"
+                android:layout_height="3dp"
+                android:layout_below="@id/txt_tophalamanregister1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:background="#005DFD" />
+
+            <TextView
+                android:id="@+id/txt_welcomeregister1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="24dp"
+                android:layout_below="@id/assets_lineregister1"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/txt_welcomeregister1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txt_happyregister1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_below="@id/txt_welcomeregister1"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/txt_happyregister1"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/reL_register2"
+            android:layout_below="@id/rel_register1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_usernameregister1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/custom_email_icon"
+                android:drawablePadding="12dp"
+                android:ems="22"
+                android:hint="@string/input_usernameregister1"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:paddingStart="12dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/input_emailregister1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/input_usernameregister1"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/custom_email_icon"
+                android:drawablePadding="12dp"
+                android:ems="22"
+                android:hint="@string/input_emailregister1"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:paddingStart="12dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/input_passwordregister1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_below="@id/input_emailregister1"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/custom_lock_icon"
+                android:drawablePadding="12dp"
+                android:ems="22"
+                android:hint="@string/input_passwordregister1"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:paddingStart="12dp"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/reL_register3"
+            android:layout_below="@id/reL_register2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/input_checkbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:minWidth="48dp"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/txt_rememberme1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/input_checkbox1"
+                android:layout_marginLeft="40dp"
+                android:text="@string/txt_rememberme1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_halamanregister1"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/input_checkbox1"
+                android:background="@drawable/button_states2"
+                android:backgroundTint="#3625F5"
+                android:text="@string/btn_halamanregister1"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

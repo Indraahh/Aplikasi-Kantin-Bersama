@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">gotinproject</string>
+    <string name="btn_halamanlogin1">Login</string>
+    <string name="btn_halamanregister1">Register</string>
+    <string name="txt_rememberme1">Remember Me</string>
+    <string name="input_passwordlogin1">Password</string>
+    <string name="input_emaillogin1">Email Address</string>
+    <string name="input_passwordregister1">Password</string>
+    <string name="input_usernameregister1">Username</string>
+    <string name="input_confirmpasswordregister1">Confirmation Password</string>
+    <string name="input_emailregister1">Email Address</string>
+    <string name="txt_happylogin1">Happy to see you again, please login here.</string>
+    <string name="txt_happyregister1">Happy to see you, please register here.</string>
+    <string name="txt_welcomelogin1">Hi, Welcome Back!</string>
+    <string name="txt_welcomeregister1">Hi, Welcome!</string>
+    <string name="txt_tophalamanlogin1">Login</string>
+    <string name="txt_tophalamanregister1">Register</string>
+    <string name="txt_forgotpassregister1">Forgot password?</string>
+</resources>
