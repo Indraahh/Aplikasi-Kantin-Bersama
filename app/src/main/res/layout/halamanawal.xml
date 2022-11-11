@@ -8,12 +8,31 @@
     tools:context=".halamanawal">
 
     <RelativeLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
+        android:background="#277EFF">
 
+        <SearchView
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:iconifiedByDefault="false"
+            android:maxWidth="300dp"
+            android:queryHint="Search Here"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp">
 
+        </SearchView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/searchview"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle"/>
 
     </RelativeLayout>
-
 </RelativeLayout>
