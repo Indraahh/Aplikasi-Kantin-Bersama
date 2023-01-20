@@ -1,2 +1,2 @@
 # Kantin-Bersama
-Kantin Bersama private school project
+This is my first project for my school, me & my friend make this project based on mobile using Android Studio, this project takes time around 3 months
